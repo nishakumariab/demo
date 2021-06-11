@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623226591480' stop='1623226719288'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623226591483' status='pending' stop='1623226591484'>
+            <name>login by json data </name>
+            <title>login by json data </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623226591485' status='broken' stop='1623226719283'>
+            <name>login by excel data</name>
+            <title>login by excel data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='92e1be2a-c57c-418d-95cf-3f7fcf5af86b-attachment.png' type='image/png' size='40212'/>
+                <attachment title='Screenshot' source='a5b8c3d7-7886-42dd-82f7-c199246aad01-attachment.png' type='image/png' size='40212'/>
+            </attachments>
+            <failure>
+                <message>Can't call clearValue on element with selector "#email--1" because element wasn't found</message>
+                <stack-trace>Error: Can't call clearValue on element with selector "#email--1" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

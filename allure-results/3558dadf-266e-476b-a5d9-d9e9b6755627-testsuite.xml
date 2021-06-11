@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623224346980' stop='1623224425059'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623224346982' status='broken' stop='1623224365039'>
+            <name>login by json data </name>
+            <title>login by json data </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: net::ERR_CONNECTION_REFUSED
+                  (Session info: chrome=91.0.4472.77)</message>
+                <stack-trace>unknown error: unknown error: net::ERR_CONNECTION_REFUSED
+                  (Session info: chrome=91.0.4472.77)
+                    at Object.getErrorFromResponseBody (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.wrapCommandFn (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at async Browser.wrapCommandFn (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at async login.navigateUrl (C:\Users\swamynarayan\Desktop\demo_wedriverio\test\assypageobjects\basePage.js:6:9)
+                    at async Context.&lt;anonymous> (C:\Users\swamynarayan\Desktop\demo_wedriverio\test\specs\loginTest1.js:12:8)
+                    at async Context.executeAsync (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at async Context.testFrameworkFnWrapper (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623224365043' status='broken' stop='1623224425053'>
+            <name>login by excel data</name>
+            <title>login by excel data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cf18834a-fd7b-44a2-b09a-317f05f2fede-attachment.png' type='image/png' size='17122'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "loging to application login by excel data" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\swamynarayan\Desktop\demo_wedriverio\test\specs\loginTest1.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "loging to application login by excel data" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\swamynarayan\Desktop\demo_wedriverio\test\specs\loginTest1.js)
+                    at createTimeoutError (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\swamynarayan\Desktop\demo_wedriverio\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
